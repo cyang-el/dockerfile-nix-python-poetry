@@ -3,7 +3,7 @@
 pkgs.buildEnv {
   name = "python";
   paths = [
-    pkgs.python3.8
+    pkgs.python3.9
     pkgs.curl
     pkgs.gnupg1
   ];
