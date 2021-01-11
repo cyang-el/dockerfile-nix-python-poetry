@@ -17,6 +17,3 @@ RUN gpg --batch --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 595
  && gpg --batch --verify /tini.asc /tini
 RUN chmod +x /tini
 ENTRYPOINT ["/tini", "--"]
-
-# Poetry
-RUN curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
