@@ -7,5 +7,6 @@ pkgs.buildEnv {
     pkgs.poetry
     pkgs.gnumake
     pkgs.gnupg1
+    pkgs.tini
   ];
 }
