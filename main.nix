@@ -5,7 +5,8 @@ pkgs.buildEnv {
   paths = [
     pkgs.bash
     pkgs.tini
-    pkgs.python3.9
+    pkgs.python3.8
+    pkgs.python38Packages.ujson
     pkgs.poetry
     pkgs.gnumake
     pkgs.gnupg1
