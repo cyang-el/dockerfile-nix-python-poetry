@@ -6,4 +6,4 @@ RUN nix-channel --update
 COPY main.nix main.nix
 
 #
-RUN nix-env -i -f  main.nix
+RUN nix-env -i -f  main.nix --show-trace
