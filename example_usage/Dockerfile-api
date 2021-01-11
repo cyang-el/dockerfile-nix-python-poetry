@@ -1,1 +1,6 @@
-docker pull quay.io/cyang_el/nix-poetry
+FROM quay.io/cyang_el/nix-poetry
+
+COPY pyproject.toml pyproject.toml
+COPY poetry.lock poetry.lock
+
+RUN poetry install

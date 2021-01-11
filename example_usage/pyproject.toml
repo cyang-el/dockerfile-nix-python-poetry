@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "mdm-proposal"
+name = "nix-poetry"
 version = "0.1.0"
 description = ""
 authors = []
