@@ -3,6 +3,7 @@
 pkgs.buildEnv {
   name = "python";
   paths = [
+    pkgs.libstdcxx5
     pkgs.bash
     pkgs.tini
     pkgs.python3.8
