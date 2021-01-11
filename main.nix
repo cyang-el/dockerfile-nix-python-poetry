@@ -5,5 +5,6 @@ pkgs.buildEnv {
   paths = [
     pkgs.python3.8
     pkgs.curl
+    pkgs.gnupg1
   ];
 }
