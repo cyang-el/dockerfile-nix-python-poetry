@@ -3,6 +3,7 @@
 pkgs.buildEnv {
   name = "python";
   paths = [
+    pkgs.bash
     pkgs.python3.9
     pkgs.poetry
     pkgs.gnumake
